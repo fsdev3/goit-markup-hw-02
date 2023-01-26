@@ -109,6 +109,7 @@ body {
 .button-filter:hover,
 .button-filter:focus {
   background: #404bbf;
+  color: #ffffff;
 }
 .project-item {
   font-weight: 500;
