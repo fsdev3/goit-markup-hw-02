@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
-  --accent-color: #4d5ae5;
+  --accent-color: #404bbf;
 }
 body {
   color: var(--primary-text-color);
@@ -21,7 +21,7 @@ body {
   color: var(--title-text-color);
 }
 .logo-first {
-  color: var(--accent-color);
+  color: #4d5ae5;
 }
 .link {
   text-decoration: none;
@@ -49,11 +49,11 @@ body {
 }
 .addr-link:hover,
 .addr-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 /* section hero */
 .section-hero {
-  background-color: var(--title-text-color);
+  background-color: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
@@ -62,6 +62,27 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.button-order {
+  width: 169px;
+  height: 56px;
+  left: 20px;
+  top: 20px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.button-order:hover {
+  background: #404bbf;
+}
+.pointer {
+  cursor: pointer;
 }
 /* section two */
 .future-list .title {
