@@ -1,9 +1,11 @@
 :root {
+  --primary-white-color: #ffffff;
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #404bbf;
 }
 body {
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -70,7 +72,8 @@ body {
   cursor: pointer;
 }
 /* section two */
-.future-list .title {
+.future-list .title,
+.teammate-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -86,13 +89,9 @@ body {
   color: var(--title-text-color);
 }
 /* section our team */
-.teammate-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--title-text-color);
+.our-team {
+  background-color: #f4f4fd;
 }
-
 /* footer */
 .footer {
   background: #2e2f42;
@@ -110,4 +109,10 @@ body {
 .button-filter:hover,
 .button-filter:focus {
   background: #404bbf;
+}
+.project-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
