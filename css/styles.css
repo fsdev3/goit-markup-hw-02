@@ -78,7 +78,8 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
   background: #404bbf;
 }
 .pointer {
