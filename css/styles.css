@@ -1,5 +1,10 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
 body {
-  color: #434455;
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -13,10 +18,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .logo-first {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 .link {
   text-decoration: none;
@@ -29,33 +34,26 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .header-link:hover,
 .header-link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--accent-color);
 }
 .addr-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 .addr-link:hover,
 .addr-link:focus {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 /* section hero */
 .section-hero {
-  background-color: #2e2f42;
+  background-color: var(--title-text-color);
 }
 .hero-title {
   font-weight: 700;
@@ -66,19 +64,17 @@ body {
   color: #ffffff;
 }
 /* section two */
-.future-list {
+.future-list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .future-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .section-title {
   font-weight: 700;
@@ -87,7 +83,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 /* section our team */
 .teammate-title {
@@ -95,22 +91,19 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 .teammate-title > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* footer */
 .footer {
   background: #2e2f42;
 }
 .footer > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
