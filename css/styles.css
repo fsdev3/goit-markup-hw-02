@@ -1,8 +1,12 @@
 :root {
   --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #404bbf;
+  --logo-and-button-color: #4d5ae5;
+  --dark-bg-color: #2e2f42;
+  --footer-text-color: #e7e9fc;
 }
 body {
   background-color: var(--primary-white-color);
@@ -23,7 +27,7 @@ body {
   color: var(--title-text-color);
 }
 .logo-first {
-  color: #4d5ae5;
+  color: var(--logo-and-button-color);
 }
 .link {
   text-decoration: none;
@@ -50,24 +54,25 @@ body {
 }
 /* section hero */
 .section-hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-bg-color);
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .button-order {
-  background: #4d5ae5;
+  background: var(--logo-and-button-color);
+  font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .button-order:hover,
 .button-order:focus {
-  background: #404bbf;
+  background: var(--accent-color);
 }
 .pointer {
   cursor: pointer;
@@ -91,32 +96,33 @@ body {
 }
 /* section our team */
 .our-team {
-  background-color: #f4f4fd;
+  background-color: var(--secondary-white-color);
 }
 /* footer */
 .footer {
-  background: #2e2f42;
+  background: var(--dark-bg-color);
 }
 .footer > p {
-  color: #e7e9fc;
+  color: var(--footer-text-color);
 }
 .logo-footer-end {
-  color: #f4f4fd;
+  color: var(--secondary-white-color);
 }
 /* portfolio.html */
 .button-filter {
-  background: #f4f4fd;
+  background: var(--secondary-white-color);
+  font-family: inherit;
 }
 .button-filter:hover,
 .button-filter:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--primary-white-color);
 }
 .project-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--dark-bg-color);
 }
 .visually-hidden {
   position: absolute;
