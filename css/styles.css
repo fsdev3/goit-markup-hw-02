@@ -67,7 +67,9 @@ body {
   background: var(--logo-and-button-color);
   font-family: inherit;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  align-items: center;
   color: var(--primary-white-color);
 }
 .button-order:hover,
@@ -112,6 +114,9 @@ body {
 .button-filter {
   background: var(--secondary-white-color);
   font-family: inherit;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
 }
 .button-filter:hover,
 .button-filter:focus {
