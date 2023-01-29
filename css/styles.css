@@ -66,6 +66,7 @@ body {
 .button-order {
   background: var(--logo-and-button-color);
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -114,6 +115,7 @@ body {
 .button-filter {
   background: var(--secondary-white-color);
   font-family: inherit;
+  font-size: 16px;
   align-items: center;
   text-align: center;
   line-height: 1.5;
