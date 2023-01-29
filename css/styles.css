@@ -126,8 +126,7 @@ body {
 .button-filter:focus {
   background: var(--accent-color);
   color: var(--primary-white-color);
-  letter-spacing: 0.04em;
-  
+    
 }
 .project-item {
   font-weight: 500;
