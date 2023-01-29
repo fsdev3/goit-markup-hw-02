@@ -117,11 +117,17 @@ body {
   align-items: center;
   text-align: center;
   line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--logo-and-button-color);
+  
 }
 .button-filter:hover,
 .button-filter:focus {
   background: var(--accent-color);
   color: var(--primary-white-color);
+  letter-spacing: 0.04em;
+  
 }
 .project-item {
   font-weight: 500;
